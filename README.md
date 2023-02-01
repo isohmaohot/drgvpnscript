@@ -1,9 +1,9 @@
-# Script ENVYOUS26 vpn Websocket
+# SCRIPT ENVYOUS26 VPN WEBSOCKET
 
  <h2 align="center">AutoScript VPN <img src="https://img.shields.io/badge/Version-senip_1.4-blue.svg"></h2>
 
 ## ⏩ DM ME IF YOU WANT USE THIS SCRIPT... ⏪
-## JUST DM ME FOR REG IP http://t.me/info_android9
+## JUST DM ME FOR REG IP http://t.me/fromhell26
 
 <h2 align="center"> Supported Linux Distribution</h2>
 <p align="center"><img src="https://d33wubrfki0l68.cloudfront.net/5911c43be3b1da526ed609e9c55783d9d0f6b066/9858b/assets/img/debian-ubuntu-hover.png"></p>
@@ -31,7 +31,7 @@ src="https://img.shields.io/badge/Service-Xray-success.svg">  <img src= "https:/
 ## INSTALLATION SCRIPT
 
   ```html
-  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/Internetvps/drgvpnscript/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/cakill26/drgvpnscript/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 
   ```
  
@@ -104,12 +104,7 @@ systemctl restart wg-quick@wg0
 <b>
 <br>
 <p align="center">
-<img src="https://user-images.githubusercontent.com/89685787/213615495-bf99dc3a-8e9d-48cc-a1e9-2a3691c2cd88.jpg" width="300" title="Autoscript-Lite">
-<b>
-
-
-
 <p align="center">
-  <a><img src="https://img.shields.io/badge/Dicopy%20©-drgvpn%20AutoScriptVPN%202023.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
+  <a><img src="https://img.shields.io/badge/Dicopy%20©-envyvpn%20AutoScriptVPN%202023.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
     </p>
    </p>

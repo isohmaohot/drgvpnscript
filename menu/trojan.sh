@@ -1,5 +1,5 @@
 #wget https://github.com/${GitUser}/
-GitUser="cakill26"
+GitUser="isohmaohot"
 
 # // IZIN SCRIPT
 export MYIP=$(curl -sS ipv4.icanhazip.com)
@@ -116,8 +116,8 @@ echo -e "Key           : ${user}"
 echo -e "Network       : TCP"
 echo -e "allowInsecure : True/allow"
 echo -e "\e[$line═════════════════════════════════\e[m"
-echo -e "Pantang Larang $creditt Shop"
-echo -e "‼️Aktiviti Berikut Adalah Dilarang(ID akan di ban tanpa notis & tiada refund)"
+echo -e "Attention!! $creditt"
+echo -e "‼️Aktivitas Berikut Adalah Dilarang (ID anda akan di ban tanpa pengecualian & tidak ada refund)"
 echo -e "\e[31m❌ Torrent (p2p, streaming p2p)"
 echo -e "\e[31m❌ PS4"
 echo -e "\e[31m❌ Porn"
@@ -135,7 +135,7 @@ echo -e "Expired : $exp"
 echo -e "Script By $creditt"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 # // FUCTION TRIAL USER TROJAN
@@ -186,8 +186,8 @@ echo -e "Key           : ${user}"
 echo -e "Network       : TCP"
 echo -e "allowInsecure : True/allow"
 echo -e "\e[$line═════════════════════════════════\e[m"
-echo -e "Pantang Larang $creditt Shop"
-echo -e "‼️Aktiviti Berikut Adalah Dilarang(ID akan di ban tanpa notis & tiada refund)"
+echo -e "Attention!! $creditt"
+echo -e "‼️Aktivitas Berikut Adalah Dilarang (ID anda akan di ban tanpa pengecualian & tidak ada refund)"
 echo -e "\e[31m❌ Torrent (p2p, streaming p2p)"
 echo -e "\e[31m❌ PS4"
 echo -e "\e[31m❌ Porn"
@@ -205,7 +205,7 @@ echo -e "Expired : $exp"
 echo -e "Script By $creditt"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 function menu3 () {
@@ -251,7 +251,7 @@ echo " Expired On  : $exp"
 echo " =========================="
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 function menu4 () {
@@ -308,7 +308,7 @@ echo " Expired On  : $exp4"
 echo " =========================="
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 function menu5 () {
@@ -355,8 +355,8 @@ echo -e "Key            : ${user}"
 echo -e "Network        : TCP"
 echo -e "allowInsecure  : True"
 echo -e "\e[$line═════════════════════════════════\e[m"
-echo -e "Pantang Larang $creditt Shop"
-echo -e "‼️Aktiviti Berikut Adalah Dilarang(ID akan di ban tanpa notis & tiada refund)"
+echo -e "Attention!! $creditt"
+echo -e "‼️Aktivitas Berikut Adalah Dilarang (ID anda akan di ban tanpa pengecualian & tidak ada refund)"
 echo -e "\e[31m❌ Torrent (p2p, streaming p2p)"
 echo -e "\e[31m❌ PS4"
 echo -e "\e[31m❌ Porn"
@@ -374,7 +374,7 @@ echo -e "Expired  : $exp"
 echo -e "Script By $creditt"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 function menu6 () {
@@ -417,7 +417,7 @@ rm -rf /tmp/other.txt
 done
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 # // FUCTION CREATE USER TROJAN
@@ -483,8 +483,8 @@ echo -e "Path Tls      : $patchtls"
 echo -e "Path Ntls     : $patchnone"
 echo -e "allowInsecure : True/allow"
 echo -e "\e[$line═════════════════════════════════\e[m"
-echo -e "Pantang Larang $creditt Shop"
-echo -e "‼️Aktiviti Berikut Adalah Dilarang(ID akan di ban tanpa notis & tiada refund)"
+echo -e "Attention!! $creditt"
+echo -e "‼️Aktivitas Berikut Adalah Dilarang (ID anda akan di ban tanpa pengecualian & tidak ada refund)"
 echo -e "\e[31m❌ Torrent (p2p, streaming p2p)"
 echo -e "\e[31m❌ PS4"
 echo -e "\e[31m❌ Porn"
@@ -508,7 +508,7 @@ echo -e "Expired : $exp"
 echo -e "Script By $creditt"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 # FUCTION TRIAL USER TROJAN
@@ -569,8 +569,8 @@ echo -e "Path Tls      : $patchtls"
 echo -e "Path Ntls     : $patchnone"
 echo -e "allowInsecure : True/allow"
 echo -e "\e[$line═════════════════════════════════\e[m"
-echo -e "Pantang Larang $creditt Shop"
-echo -e "‼️Aktiviti Berikut Adalah Dilarang(ID akan di ban tanpa notis & tiada refund)"
+echo -e "Attention!! $creditt"
+echo -e "‼️Aktivitas Berikut Adalah Dilarang (ID anda akan di ban tanpa 0pengecualian & tidak ada refund)"
 echo -e "\e[31m❌ Torrent (p2p, streaming p2p)"
 echo -e "\e[31m❌ PS4"
 echo -e "\e[31m❌ Porn"
@@ -594,7 +594,7 @@ echo -e "Expired : $exp"
 echo -e "Script By $creditt"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 function menu9 () {
@@ -641,7 +641,7 @@ echo " Expired On  : $exp"
 echo " =========================="
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 function menu10 () {
@@ -694,7 +694,7 @@ echo " Expired On  : $exp4"
 echo " =========================="
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 function menu11 () {
@@ -750,8 +750,8 @@ echo -e "Path Tls      : $patchtls"
 echo -e "Path Ntls     : $patchnone"
 echo -e "allowInsecure : True/allow"
 echo -e "\e[$line═════════════════════════════════\e[m"
-echo -e "Pantang Larang $creditt Shop"
-echo -e "‼️Aktiviti Berikut Adalah Dilarang(ID akan di ban tanpa notis & tiada refund)"
+echo -e "Attention!! $creditt Shop"
+echo -e "‼️Aktivitas Berikut Adalah Dilarang (ID anda akan di ban tanpa pengecualian & tidak ada refund)"
 echo -e "\e[31m❌ Torrent (p2p, streaming p2p)"
 echo -e "\e[31m❌ PS4"
 echo -e "\e[31m❌ Porn"
@@ -775,7 +775,7 @@ echo -e "Expired : $exp"
 echo -e "Script By $creditt"
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 function menu12 () {
@@ -818,7 +818,7 @@ rm -rf /tmp/other.txt
 done
 echo ""
 read -n 1 -s -r -p "Press any key to back on menu Trojan"
-trojaan
+trojan
 }
 
 # MENU TROJAN
@@ -882,5 +882,5 @@ else
 clear
 echo -e "\e[1;31mYou Entered The Wrong Number, Please Try Again!\e[0m"
 sleep 1
-trojaan
+trojan
 fi

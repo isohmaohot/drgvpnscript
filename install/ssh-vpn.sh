@@ -1,6 +1,6 @@
 # ==================================================
 #wget https://github.com/${GitUser}/
-GitUser="cakill26"
+GitUser="isohmaohot"
 
 # // initializing var
 export DEBIAN_FRONTEND=noninteractive

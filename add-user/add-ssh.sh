@@ -1,6 +1,6 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
-GitUser="cakill26"
+GitUser="isohmaohot"
 
 echo -e "\e[32mloading...\e[0m"
 clear

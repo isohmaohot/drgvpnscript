@@ -20,7 +20,7 @@ CYAN='\e[36m'
 LIGHT='\033[0;37m'
 tokengit=$(cat /etc/adminip/access.conf)
 MYIP=$(wget -qO- ipinfo.io/ip);
-adminip=$( curl -sS https://raw.githubusercontent.com/cakill26/allow/main/accessmenu | grep $MYIP )
+adminip=$( curl -sS https://raw.githubusercontent.com/isohmaohot/allow/main/accessmenu | grep $MYIP )
 if [ $adminip = $MYIP ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
@@ -63,7 +63,7 @@ rm -rf /root/allow
 read -p " - IP VPS      : " daftar
 echo -e "[ ${Lyellow}INFO${NC} ] Checking the IPVPS if Already Registered"
 sleep 1
-cek=$( curl -sS https://raw.githubusercontent.com/cakill26/allow/main/ipvps.conf | awk '{print $5}' | grep $daftar )
+cek=$( curl -sS https://raw.githubusercontent.com/isohmaohot/allow/main/ipvps.conf | awk '{print $5}' | grep $daftar )
 if [[ $daftar = $cek ]]; then
 echo -e "\e[1;31m The IP VPS Has Been Registered\e[0m"
 sleep 2
@@ -73,8 +73,8 @@ echo -e "IP VPS is not Registered, Permission Accepted.."
 fi
 clear
 echo -e "1) Lifetime ID" 
-echo -e "2) Sewa / Had Masa"
-read -p "Sila Pilih : " jawab
+echo -e "2) Sewa"
+read -p "Silahkan Pilih : " jawab
 if [ "$jawab" = "1" ]; then
 read -p " - Client Name: " client 
 read -p " - Client ID : " id
@@ -96,9 +96,9 @@ fi
 
 daftarip=$(cat /root/data)
 rm -rf /root/allow
-git config --global user.email "alifgaming9546@gmail.com"
-git config --global user.name "cakill26"
-git clone https://github.com/cakill26/allow.git
+git config --global user.email "sarahlaurel713@gmail.com"
+git config --global user.name "isohmaohot"
+git clone https://github.com/isohmaohot/allow.git
 mkdir /root/allow
 cd /root/allow/
 rm -rf .git
@@ -110,8 +110,8 @@ git init >/dev/null 2>&1
 git add .
 git commit -m register
 git branch -M main
-git remote add origin https://github.com/cakill26/allow.git
-git push -f https://${tokengit}@github.com/cakill26/allow.git
+git remote add origin https://github.com/isohmaohot/allow.git
+git push -f https://${tokengit}@github.com/isohmaohot/allow.git
 echo -e "IPVPS Registration Completed"
 sleep 1
 links1="apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot"
@@ -165,9 +165,9 @@ clear
 rm -rf /root/allow
 rm -rf /root/data
 rm -rf /root/ipvps.conf
-git config --global user.email "alifgaming9546@gmail.com"
-git config --global user.name "cakill26"
-git clone https://github.com/cakill26/allow.git
+git config --global user.email "sarahlaurel713@gmail.com"
+git config --global user.name "isohmaohot"
+git clone https://github.com/isohmaohot/allow.git
 mkdir /root/allow
 cd /root/allow/
 rm -rf .git
@@ -220,9 +220,9 @@ exit 0
 fi
 clear
 rm -rf /root/allow
-git config --global user.email "alifgaming9546@gmail.com"
-git config --global user.name "cakill26"
-git clone https://github.com/cakill26/allow.git
+git config --global user.email "sarahlaurel713@gmail.com"
+git config --global user.name "isohmaohot"
+git clone https://github.com/isohmaohot/allow.git
   mkdir /root/allow
   cd /root/allow/
   rm -rf .git
@@ -267,8 +267,8 @@ sed -i "s/### $user $exp/### $user $exp4/g" /root/allow/ipvps.conf
 git add .
 git commit -m renew
 git branch -M main
-git remote add origin https://github.com/cakill26/allow.git
-git push -f https://${tokengit}@github.com/cakill26/allow.git
+git remote add origin https://github.com/isohmaohot/allow.git
+git push -f https://${tokengit}@github.com/isohmaohot/allow.git
 echo -e "IPVPS Registration Completed"
   clear
 echo -e "\033[0;34m----------------------------------------\033[0m"
@@ -299,9 +299,9 @@ clear
 rm -rf /root/allow
 rm -rf /root/data
 rm -rf /root/ipvps.conf
-git config --global user.email "alifgaming9546@gmail.com"
-git config --global user.name "cakill26"
-git clone https://github.com/cakill26/allow.git
+git config --global user.email "sarahlaurel713@gmail.com"
+git config --global user.name "isohmaohot"
+git clone https://github.com/isohmaohot/allow.git
 cd /root/allow/
 rm -rf .git
 git init

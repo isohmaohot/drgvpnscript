@@ -1,6 +1,6 @@
 #!/bin/bash
 #wget https://github.com/${GitUser}/
-GitUser="cakill26"
+GitUser="isohmaohot"
 #IZIN SCRIPT
 MYIP=$(curl -sS ipv4.icanhazip.com)
 clear
@@ -121,8 +121,8 @@ banner=$(cat /usr/bin/bannerku)
 ascii=$(cat /usr/bin/test)
 clear
 echo -e "\e[$banner_colour"
-figlet -f $ascii "ENVY VPN"
-echo -e "\e[$text PREMIUM-SERVER-SCRIPT-BY-ENVYVPN"
+figlet -f $ascii "WEDNESDAY VPN"
+echo -e "\e[$text PREMIUM-SERVER-SCRIPT-BY-WEDNESDAY"
 echo -e " \e[$line**************************************************************\e[m"
 echo -e "  \e[$text Cpu Model            :$cname"
 echo -e "  \e[$text Cpu Frequency        :$freq MHz"
@@ -163,9 +163,9 @@ echo -e "  \e[$number [•10]\e[m \e[$below•INFO\e[m"
 echo -e "  \e[$number [•11]\e[m \e[$below•CLEAR LOG\e[m"
 echo -e "  \e[$number [•12]\e[m \e[$below•EXIT\e[m"
 echo -e " \e[$line*************************************************************\e[m"
-echo -e "  \e[$below Autoscript By        : ENVYVPN"
-echo -e "  \e[$below remode by            : @hell-oh-hell"
-echo -e "  \e[$below creadit to OWNER     : ENVYVPN && V-CODE"
+echo -e "  \e[$below Autoscript By        : WEDNESDAY"
+echo -e "  \e[$below remode by            : @Phoebeatwell17"
+echo -e "  \e[$below creadit to OWNER     : WEDNESDAY"
 echo -e " \e[$line*************************************************************\e[m"
 echo -e "  \e[$below[Ctrl + C] keluar-dari-script\e[m"
 echo -e "\e[$below "
@@ -176,7 +176,7 @@ case $menu in
     xraay
     ;;
 2)
-    trojaan
+    trojan
     ;;
 3)
     ssh

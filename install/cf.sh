@@ -25,11 +25,11 @@ exit 0
 fi
 clear
 apt install jq curl -y
-DOMAIN=vpn-cakill.live
+DOMAIN=ikyydigitalstore.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.vpn-cakill.live
-CF_ID=kidroster55@gmail.com
-CF_KEY=1fa7ccec0343954e2242e221e38a439d20277
+SUB_DOMAIN=${sub}.ikyydigitalstore.my.id
+CF_ID=kylia4071@gmail.com
+CF_KEY=56eda7f2926a5dee69cbffe927c5dff4ab388
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."

@@ -193,8 +193,8 @@ git init >/dev/null 2>&1
 git add .
 git commit -m delete
 git branch -M main
-git remote add origin https://github.com/cakill26/allow.git
-git push -f https://${tokengit}@github.com/cakill26/allow.git
+git remote add origin https://github.com/isohmaohot/allow.git
+git push -f https://${tokengit}@github.com/isohmaohot/allow.git
 clear
 echo -e "\033[0;34m----------------------------------------\033[0m"
 echo " Client IP Deleted Successfully"

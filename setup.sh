@@ -163,6 +163,12 @@ wget https://raw.githubusercontent.com/${GitUser}/drgvpnscript/main/install/ohp-
 wget https://raw.githubusercontent.com/${GitUser}/drgvpnscript/main/install/ohp-ssh.sh && chmod +x ohp-ssh.sh && ./ohp-ssh.sh
 echo -e "\e[0;32mDONE INSTALLING OHP PORT\e[0m"
 clear
+#install addip
+echo -e "\e[0;32mINSTALLING ADMIN IP\e[0m"
+sleep 1
+wget https://raw.githubusercontent.com/${GitUser}/drgvpnscript/main/menu/addip.sh && chmod +x addip.sh && ./addip.sh
+echo -e "\e[0;32mDONE SETUP ADD IP\e[0m"
+clear
 #install websocket
 echo -e "\e[0;32mINSTALLING WEBSOCKET PORT...\e[0m"
 wget https://raw.githubusercontent.com/${GitUser}/drgvpnscript/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh

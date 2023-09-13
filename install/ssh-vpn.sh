@@ -133,10 +133,10 @@ echo "/usr/sbin/nologin" >> /etc/shells
 /etc/init.d/dropbear restart
 
 # // install squid for debian 9,10 & ubuntu 20.04
-apt -y install squid squid-openssl
+apt -y install squid
 
 # install squid for debian 11
-apt -y install squid squid-openssl
+apt -y install squid
 wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/${GitUser}/drgvpnscript/main/squid3.conf"
 sed -i $MYIP2 /etc/squid/squid.conf
 
@@ -178,7 +178,7 @@ connect = 127.0.0.1:109
 accept = 442
 connect = 127.0.0.1:1194
 
-[kontol-stunnel]
+[ws-stunnel]
 accept = 2096
 connect = 127.0.0.1:2091
 END

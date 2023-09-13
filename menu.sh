@@ -167,7 +167,7 @@ echo -e "  \e[$below Autoscript By        : Kylia Store"
 echo -e "  \e[$below Recode by            : @KyyLearning27"
 echo -e "  \e[$below Credit to OWNER      : Kyy Learning"
 echo -e " \e[$line*************************************************************\e[m"
-echo -e "  \e[$below[Ctrl + C] keluar-dari-script\e[m"
+echo -e "  \e[$below Untuk Keluar Dari Script Tekan [Ctrl + C]\e[m"
 echo -e "\e[$below "
 read -p " Select menu :  " menu
 echo -e ""

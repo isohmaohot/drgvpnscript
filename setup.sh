@@ -19,14 +19,14 @@ echo ''
 clear
 echo ''
 echo "                                                              "
-echo -e "$Lyellow                   ⚡ PREMIUM AUTO SCRIPT ⚡"$NC
+echo -e "$Lyellow               ⚡ PREMIUM AUTO SCRIPT ⚡"$NC
 echo -e "$green.........................................................."$NC
-echo -e "$Lyellow                    Autoscript By Wednesday"$NC
-echo -e "$Lyellow                      CONTACT TELEGRAM"$NC
-echo -e "$Lyellow                       @Phoebeatwell17"$NC
+echo -e "$Lyellow               Autoscript By KyyLearning"$NC
+echo -e "$Lyellow                   CONTACT TELEGRAM"$NC
+echo -e "$Lyellow                    @KyyLearning27"$NC
 echo -e "$green.........................................................."$NC
 echo ''
-echo -e "$Lyellow                       Tunggu 10 Detik!"$NC
+echo -e "$Lyellow                   Tunggu 10 Detik!"$NC
 echo -e "$green.........................................................."$NC
 sleep 6
 clear

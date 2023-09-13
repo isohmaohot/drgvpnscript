@@ -33,7 +33,7 @@ fi
 
 setadmin() {
 #isi link git
-linkinstall="https://raw.githubusercontent.com/namagit/git-repo/main"
+linkinstall="https://raw.githubusercontent.com/isohmaohot/allow/main/ipvps.conf"
 rm -rf /etc/adminip/
 mkdir -p /etc/adminip
 read -p "INPUT OWNER ACCESS TOKEN CODE " ans

@@ -11,13 +11,13 @@ source /etc/os-release
 ver=$VERSION_ID
 
 # // detail nama perusahaan
-country="MY"
-state="Kelantan"
-locality="Kota Bharu"
-organization="@meaaoouuuu"
-organizationalunit="@meaaoouuuu"
-commonname="AQUAGURL"
-email="admin@aquagurl.com"
+country="ID"
+state="DKI Jakarta"
+locality="Jakarta"
+organization="@KyyLearning"
+organizationalunit="@KyyKearning"
+commonname="KYY"
+email="admin@my-kylia1704.my.id"
 
 # // simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/${GitUser}/drgvpnscript/main/password"
@@ -71,8 +71,8 @@ apt-get remove --purge exim4 -y
 # // install wget and curl
 apt -y install wget curl
 
-# // set time GMT +8
-ln -fs /usr/share/zoneinfo/Asia/Kuala_Lumpur /etc/localtime
+# // set time GMT +7
+ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 
 # // set locale
 sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
@@ -133,10 +133,10 @@ echo "/usr/sbin/nologin" >> /etc/shells
 /etc/init.d/dropbear restart
 
 # // install squid for debian 9,10 & ubuntu 20.04
-apt -y install squid3
+apt -y install squid squid-openssl
 
 # install squid for debian 11
-apt -y install squid
+apt -y install squid squid-openssl
 wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/${GitUser}/drgvpnscript/main/squid3.conf"
 sed -i $MYIP2 /etc/squid/squid.conf
 

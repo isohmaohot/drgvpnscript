@@ -121,7 +121,7 @@ banner=$(cat /usr/bin/bannerku)
 ascii=$(cat /usr/bin/test)
 clear
 echo -e "\e[$banner_colour"
-figlet -f $ascii "KyyLearning"
+figlet -f $ascii  "KyyLearning"
 echo -e "\e[$text PREMIUM SERVER SCRIPT BY KYYLEARNING27"
 echo -e " \e[$line**************************************************************\e[m"
 echo -e "  \e[$text Cpu Model            :$cname"

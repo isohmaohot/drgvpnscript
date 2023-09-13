@@ -82,7 +82,7 @@ systemctl restart wg-quick@wg0
   - XRAY Trojan Ws None Tls : 80
 
  >>> Server Information & Other Features
-   - Timezone                 : Asia/Kuala_Lumpur (GMT +8)
+   - Timezone                 : Asia/Jakarta (GMT +7)
    - Fail2Ban                 : [ON]
    - DDOS Dflate              : [ON]
    - IPtables                 : [ON]

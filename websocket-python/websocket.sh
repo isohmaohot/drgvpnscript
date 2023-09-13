@@ -23,10 +23,8 @@ User=root
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
-StartLimitIntervalSec=120
-StartLimitBurst=120
+ExecStart=/usr/bin/python -O /usr/local/bin/ws-https 443
 Restart=on-failure
-ExecStart=/usr/bin/python -O /usr/local/bin/ws-https
 
 [Install]
 WantedBy=multi-user.target
@@ -45,10 +43,8 @@ User=root
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
-ExecStart=/usr/bin/python -O /usr/local/bin/ws-http
+ExecStart=/usr/bin/python -O /usr/local/bin/ws-http 80
 Restart=on-failure
-StartLimitIntervalSec=120
-StartLimitBurst=120
 
 [Install]
 WantedBy=multi-user.target
@@ -68,8 +64,6 @@ CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
 ExecStart=/usr/bin/python -O /usr/local/bin/ws-ovpn 2097
-StartLimitIntervalSec=120
-StartLimitBurst=120
 Restart=on-failure
 
 [Install]
@@ -77,13 +71,13 @@ WantedBy=multi-user.target
 EOF
 
 # // PYTHON WEBSOCKET TLS && NONE
-wget -q -O /usr/local/bin/ws-https "https://raw.githubusercontent.com/${GitUser}/dgrvpnscript/main/${namafolder}/ws-https" chmod +x /usr/local/bin/ws-https
+wget -q -O /usr/local/bin/ws-https https://raw.githubusercontent.com/${GitUser}/dgrvpnscript/main/${namafolder}/ws-https chmod +x /usr/local/bin/ws-https
 
 # // PYTHON WEBSOCKET DROPBEAR
-wget -q -O /usr/local/bin/ws-http "https://raw.githubusercontent.com/${GitUser}/dgrvpnscript/main/${namafolder}/ws-http" chmod +x /usr/local/bin/ws-http
+wget -q -O /usr/local/bin/ws-http https://raw.githubusercontent.com/${GitUser}/dgrvpnscript/main/${namafolder}/ws-http chmod +x /usr/local/bin/ws-http
 
 # // PYTHON WEBSOCKET OVPN
-wget -q -O /usr/local/bin/ws-ovpn "https://raw.githubusercontent.com/${GitUser}/dgrvpnscript/main/${namafolder}/ws-ovpn" chmod +x /usr/local/bin/ws-ovpn
+wget -q -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/${GitUser}/dgrvpnscript/main/${namafolder}/ws-ovpn chmod +x /usr/local/bin/ws-ovpn
 
 # // RESTART && ENABLE SSHVPN WEBSOCKET TLS 
 systemctl daemon-reload

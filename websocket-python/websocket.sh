@@ -23,6 +23,8 @@ User=root
 CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
+StartLimitIntervalSec=120
+StartLimitBurst=120
 Restart=on-failure
 ExecStart=/usr/bin/python -O /usr/local/bin/ws-https
 
@@ -45,6 +47,9 @@ AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
 ExecStart=/usr/bin/python -O /usr/local/bin/ws-http
 Restart=on-failure
+StartLimitIntervalSec=120
+StartLimitBurst=120
+
 [Install]
 WantedBy=multi-user.target
 EOF
@@ -63,6 +68,8 @@ CapabilityBoundingSet=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 AmbientCapabilities=CAP_NET_ADMIN CAP_NET_BIND_SERVICE
 NoNewPrivileges=true
 ExecStart=/usr/bin/python -O /usr/local/bin/ws-ovpn 2097
+StartLimitIntervalSec=120
+StartLimitBurst=120
 Restart=on-failure
 
 [Install]
